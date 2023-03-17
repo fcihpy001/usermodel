@@ -1,0 +1,22 @@
+debug: bool
+redis: String,
+server:
+  host: 127.0.0.1
+  port: 8081
+
+database_url: "mysql://root:root@localhost:3306/rivet_admin"
+mysql: "mysql://root:root@localhost:3306/rivet_admin"
+
+secret: "2844"
+jwt_secret: "2844"
+pg:
+  user: actix
+  password: actix
+  host: 127.0.0.1
+  port: 5432
+  dbname: actix
+  pool.max_size: 16
+
+oss:
+
+wxapp:
